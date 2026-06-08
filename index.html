@@ -6,8 +6,8 @@
     <title>Unity Web Player | boredom online exp S4</title>
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
-    <canvas id="unity-canvas" width=960 height=540 tabindex="-1" style="width: 960px; height: 540px; background: #231F20"></canvas>
-    <script src="Build/slot boredom experiment (5 min version).loader.js"></script>
+    <canvas id="unity-canvas" width=800 height=450 tabindex="-1" style="width: 800px; height: 450px; background: #231F20"></canvas>
+    <script src="Build/slots-boredom-experiment.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -26,9 +26,9 @@
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
         arguments: [],
-        dataUrl: "Build/slot boredom experiment (5 min version).data",
-        frameworkUrl: "Build/slot boredom experiment (5 min version).framework.js",
-        codeUrl: "Build/slot boredom experiment (5 min version).wasm",
+        dataUrl: "Build/slots-boredom-experiment.data",
+        frameworkUrl: "Build/slots-boredom-experiment.framework.js",
+        codeUrl: "Build/slots-boredom-experiment.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "boredom online exp S4",
